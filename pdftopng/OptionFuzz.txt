@@ -1,0 +1,12 @@
+11
+pdftopng -aaVector no -cfg . -aa no -rot 90 -mono -verbose    @@ /tmp/foo.png
+pdftopng -gray -aa no -aaVector no -rot 90 -cfg . -verbose   @@ /tmp/foo.png
+pdftopng -opw aaa -rot 90 -aaVector no -cfg . -mono -aa no -verbose   @@ /tmp/foo.png
+pdftopng -upw aaa -aa no -verbose -aaVector no -mono -cfg . -rot 90   @@ /tmp/foo.png
+pdftopng -q -aaVector no -mono -rot 90 -cfg . -aa no -verbose   @@ /tmp/foo.png
+pdftopng -f 1 -aaVector no -aa no -cfg . -mono -rot 90 -verbose   @@ /tmp/foo.png
+pdftopng -l 1 -aaVector no -aa no -rot 90 -mono -cfg . -verbose   @@ /tmp/foo.png
+pdftopng -r 150 -mono -cfg . -aaVector no -aa no -rot 90 -verbose   @@ /tmp/foo.png
+pdftopng -alpha -aa no -aaVector no -cfg . -rot 90 -verbose   @@ /tmp/foo.png
+pdftopng -rot 90 -mono -cfg . -aa no -aaVector no -verbose   @@ /tmp/foo.png
+pdftopng -freetype no -aaVector no -aa no -mono -rot 90 -cfg . -verbose   @@ /tmp/foo.png

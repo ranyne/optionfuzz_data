@@ -1,0 +1,14 @@
+13
+tiff2ps -1 -T -s @@ /dev/null
+tiff2ps -x -a -M 512 -P P -2 @@ /dev/null
+tiff2ps -s -a @@ /dev/null
+tiff2ps -x -z -s -a @@ /dev/null
+tiff2ps -p @@ /dev/null
+tiff2ps -2 -1 -a @@ /dev/null
+tiff2ps -3 @@ /dev/null
+tiff2ps -D -P P -a @@ /dev/null
+tiff2ps -T -s @@ /dev/null
+tiff2ps -r auto @@ /dev/null
+tiff2ps -e @@ /dev/null
+tiff2ps -2 -z -8 @@ /dev/null
+tiff2ps -z -r auto @@ /dev/null

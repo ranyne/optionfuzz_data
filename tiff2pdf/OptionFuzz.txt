@@ -1,0 +1,13 @@
+12
+tiff2pdf -e 20220909220000 -m 512 @@
+tiff2pdf -i @@
+tiff2pdf -u m -x 720 -b @@
+tiff2pdf -w 10 -s subject @@
+tiff2pdf -z -n @@
+tiff2pdf -f -p legal @@
+tiff2pdf -d -w 10 -u m -s subject @@
+tiff2pdf -x 720 -b @@
+tiff2pdf -p legal -b -F @@
+tiff2pdf -c creator -f -l 10 -n -b @@
+tiff2pdf -r o -q 90 -j @@
+tiff2pdf -f -l 10 -k 123456 -q 90 -t title -n -c creator -z -r o @@

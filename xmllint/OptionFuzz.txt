@@ -1,0 +1,9 @@
+8
+xmllint --noblanks --nodefdtd --noent --xinclude --quiet --oldxml10 --xpath //element/@attribute --testIO --catalogs --auto @@
+xmllint --schema --relaxng --debugent --output /tmp/foo --quiet --auto --c14n --schematron --pushsmall --nsclean @@
+xmllint --relaxng --noent --recover --auto --schematron --pattern /foo/bar --huge @@
+xmllint --push --output /tmp/foo --walker --quiet --schematron --auto --pushsmall --noent --huge @@
+xmllint --html --htmlout --nsclean --sax1 --auto --copy --push @@
+xmllint --nofixup-base-uris --push --encode ISO-Latin-1 --recover --schematron --auto --pattern /foo/bar @@
+xmllint --maxmem 102400 --insert --nowrap --pushsmall --format --schematron --nodefdtd --encode ISO-Latin-1 --relaxng --htmlout --auto @@
+xmllint --schematron --postvalid --recover --auto --relaxng --encode ISO-Latin-1 @@

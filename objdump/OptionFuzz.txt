@@ -1,0 +1,11 @@
+10
+objdump -D -w -P except @@
+objdump -g -D --source-comment ="# default comment" -x --dwarf -T -l -m x86-64 @@
+objdump -S -e -x -g --source-comment ="# default comment" --dwarf -d main -D -l -m x86-64 @@
+objdump -e -S -D -x -l --source-comment ="# default comment" -g -T --dwarf -m x86-64 @@
+objdump -S -x -l -G -D --dwarf --source-comment ="# default comment" -e -T -g -m x86-64 @@
+objdump -x --dwarf -S -C -T -D -l -e --source-comment ="# default comment" -g -m x86-64 @@
+objdump -p -S -x --dwarf --source-comment ="# default comment" -e -D -g -T -l -m x86-64 @@
+objdump --source-comment ="# default comment" -p -g -D --dwarf -h -x -T -l -m x86-64 @@
+objdump --dwarf -R -e -x -S -g --source-comment ="# default comment" --sframe -D -T @@
+objdump -S -D -e --source-comment ="# default comment" --dwarf -x -g -T -l -m x86-64 @@

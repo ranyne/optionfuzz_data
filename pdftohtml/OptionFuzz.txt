@@ -1,0 +1,14 @@
+13
+pdftohtml -verbose @@ /dev/null
+pdftohtml -q -verbose @@ /dev/null
+pdftohtml -upw 123456 -opw 123456 -verbose @@ /dev/null
+pdftohtml -embedfonts -verbose @@ /dev/null
+pdftohtml -allinvisible -verbose @@ /dev/null
+pdftohtml -nofonts -verbose @@ /dev/null
+pdftohtml -meta -verbose @@ /dev/null
+pdftohtml -f 1 -verbose @@ /dev/null
+pdftohtml -table -upw 123456 -opw123456 -verbose @@ /dev/null
+pdftohtml -l 1 -opw 123456 -upw 12346 -verbose @@ /dev/null
+pdftohtml -formfields -verbose @@ /dev/null
+pdftohtml -skipinvisible -opw 123456 -upw 123456 -verbose @@ /dev/null
+pdftohtml -overwrite -opw 123456 -upw 123456 -verbose @@ /dev/null

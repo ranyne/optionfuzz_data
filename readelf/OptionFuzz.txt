@@ -1,0 +1,5 @@
+4
+readelf -a @@
+readelf --debug-dump -a -d -e -r -u @@
+readelf -a --debug-dump -e -u -r -d @@
+readelf -L -C -P @@

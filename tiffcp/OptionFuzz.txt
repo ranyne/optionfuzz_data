@@ -1,0 +1,7 @@
+6
+tiffcp -B   @@ /tmp/foo
+tiffcp -w 100   @@ /tmp/foo
+tiffcp -m 512 -8 -r 4 -x   @@ /tmp/foo
+tiffcp -s -8 -x   @@ /tmp/foo
+tiffcp -p separate -C   @@ /tmp/foo
+tiffcp -f msb2lsb -a -w 100   @@ /tmp/foo

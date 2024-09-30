@@ -1,0 +1,9 @@
+8
+cjpeg -strict -maxmemory 4m -memdst @@
+cjpeg -dct float  -progressive -smooth 1 -report -strict -memdst @@
+cjpeg -rgb -progressive -restart 1 -report -smooth 1  @@
+cjpeg -outfile /tmp/foo -smooth 1 -rgb @@
+cjpeg -memdst -dct float -grayscale @@
+cjpeg -optimize -smooth 1 @@
+cjpeg -debug -progressive @@
+cjpeg -baseline -verbose -optimize -quality 75  @@

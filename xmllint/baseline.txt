@@ -1,0 +1,1 @@
+xmllint --noblanks --nodefdtd --noent --xinclude --quiet --oldxml10 --xpath "//element/@attribute" --testIO --catalogs --auto @@
